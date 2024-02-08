@@ -1,2 +1,3 @@
-# QuadraticMatrixEquation.jl
-solve AX² + BX + C = 0 and X²A + XB + C = 0 
+# QuadraticMatrixEquation
+
+[![Build Status](https://github.com/eduardobarplenz@gmail.com/QuadraticMatrixEquation.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/eduardobarplenz@gmail.com/QuadraticMatrixEquation.jl/actions/workflows/CI.yml?query=branch%3Amain)
