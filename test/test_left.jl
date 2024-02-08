@@ -11,7 +11,7 @@
     tol = 1E-6
 
     # Solve the problem without Line Search
-    X = quadraticsolve_left(A,B,C,LS=false,tol=tol,niter=100,verbose=true) 
+    X = quadraticsolve_left(A,B,C,tol=tol,niter=100,verbose=true) 
 
     # Compute Q
     Q = X*(X*A .+ B) .+ C
@@ -29,7 +29,7 @@
     tol = 1E-6
 
     # Solve the problem without Line Search
-    X = quadraticsolve_right(A,B,C,LS=false,tol=tol,niter=100,verbose=true) 
+    X = quadraticsolve_right(A,B,C,tol=tol,niter=100,verbose=true) 
 
     # Compute Q
     Q = X*(X*A .+ B) .+ C
@@ -47,7 +47,7 @@
     tol = 1E-6
 
     # Solve the problem without Line Search
-    X = quadraticsolve_right(A,B,C,LS=false,tol=tol,niter=100,verbose=true) 
+    X = quadraticsolve_right(A,B,C,tol=tol,niter=100,verbose=true) 
 
     # Compute Q
     Q = X*(X*A .+ B) .+ C

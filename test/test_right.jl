@@ -10,16 +10,8 @@
     # Solve the problem with Tolerance
     tol = 1E-6
 
-    # With line search
-    #X = quadraticsolve_right(A,B,C,LS=true,tol=tol,niter=100,verbose=true) 
-
-    # Compute Q
-    #Q = (A*X .+ B)*X .+ C
-    
-    #@test norm(Q)<=tol
-
     # Solve the problem without Line Search
-    X = quadraticsolve_right(A,B,C,LS=false,tol=tol,niter=100,verbose=true) 
+    X = quadraticsolve_right(A,B,C,tol=tol,niter=100,verbose=true) 
 
     # Compute Q
     Q = (A*X .+ B)*X .+ C
@@ -36,16 +28,8 @@
     # Solve the problem with Tolerance
     tol = 1E-6
 
-    # With line search
-    #X = quadraticsolve_right(A,B,C,LS=true,tol=tol,niter=100,verbose=true) 
-
-    # Compute Q
-    #Q = (A*X .+ B)*X .+ C
-    
-    #@test norm(Q)<=tol
-
     # Solve the problem without Line Search
-    X = quadraticsolve_right(A,B,C,LS=false,tol=tol,niter=100,verbose=true) 
+    X = quadraticsolve_right(A,B,C,tol=tol,niter=100,verbose=true) 
 
     # Compute Q
     Q = (A*X .+ B)*X .+ C
@@ -62,16 +46,8 @@
     # Solve the problem with Tolerance
     tol = 1E-6
 
-    # With line search
-    #X = quadraticsolve_right(A,B,C,LS=true,tol=tol,niter=100,verbose=true) 
-
-    # Compute Q
-    #Q = (A*X .+ B)*X .+ C
-    
-    #@test norm(Q)<=tol
-
     # Solve the problem without Line Search
-    X = quadraticsolve_right(A,B,C,LS=false,tol=tol,niter=100,verbose=true) 
+    X = quadraticsolve_right(A,B,C,tol=tol,niter=100,verbose=true) 
 
     # Compute Q
     Q = (A*X .+ B)*X .+ C
@@ -97,16 +73,8 @@
     # Solve the problem with Tolerance
     tol = 1E-6
 
-    # With line search
-    #X = quadraticsolve_right(A,B,C,LS=true,tol=tol,niter=100,verbose=true) 
-
-    # Compute Q
-    #Q = (A*X .+ B)*X .+ C
-    
-    #@test norm(Q)<=tol
-
     # Solve the problem without Line Search
-    X = quadraticsolve_right(A,B,C,LS=false,tol=tol,niter=100,verbose=true) 
+    X = quadraticsolve_right(A,B,C,tol=tol,niter=100,verbose=true) 
 
     # Compute Q
     Q = (A*X .+ B)*X .+ C
