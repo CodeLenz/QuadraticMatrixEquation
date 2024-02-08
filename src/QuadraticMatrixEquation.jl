@@ -1,4 +1,5 @@
 module QuadraticMatrixEquation
+   
     using LinearAlgebra
     using MatrixEquations
     
