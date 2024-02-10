@@ -13,3 +13,5 @@ $X²A + XB + C = 0$
 where $A$, $B$ and $C$ are $n \times n$ complex matrices.
 
 using Newton-Raphson.
+
+Observation: The Sylvester equation to find the Fréchet derivative is evaluated using the MatrixEquations package (https://github.com/andreasvarga/MatrixEquations.jl)
