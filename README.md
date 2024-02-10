@@ -14,4 +14,4 @@ where $A$, $B$ and $C$ are $n \times n$ complex matrices.
 
 using Newton-Raphson.
 
-Observation: The Sylvester equation to find the Fréchet derivative is evaluated using the MatrixEquations package (https://github.com/andreasvarga/MatrixEquations.jl) and the documentation (https://docs.juliahub.com/MatrixEquations/1uOBF/2.4.2/sylvester.html)
+Observation: The Sylvester equation to find the Fréchet derivative is evaluated using the MatrixEquations package (https://github.com/andreasvarga/MatrixEquations.jl) and the documentation ([https://docs.juliahub.com/MatrixEquations/1uOBF/2.4.2/sylvester.html](https://docs.juliahub.com/MatrixEquations/1uOBF/2.4.2/sylvester.html#MatrixEquations.gsylv))
